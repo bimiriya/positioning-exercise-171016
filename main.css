@@ -1,0 +1,308 @@
+/*.box1,.box2,.box3 {
+	display : inline-block;
+	width: 80px;
+	height: 80px;
+	border: 2px solid black;
+}
+
+.box1 {
+	background-color: red;
+	position: relative;
+	left: 50px;
+	right: 50px;
+	top: 50px;
+}
+
+.box2 {
+	background-color: yellow;
+}
+
+.box3 {
+	background-color: green;
+}
+
+.box4 {
+	background-color: blue;
+	border: 2px solid black;
+	width: 260px;
+	height: 80px;
+}
+
+---------------------------------------------------------------------------------------------------*/
+
+
+.casa {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	height: 600px;
+	background-color: #003366;
+}
+
+.pasto {
+	display: block;
+	background-color: #809966;
+	width: 100%;
+	height: 90px;
+	position: absolute;
+	bottom: 0px;
+}
+
+.base{
+	position: absolute;
+	background-color: pink;
+	width: 500px;
+	height: 200px;
+	bottom: 90px;
+	left: 150px;
+}
+
+.techo {
+	position: absolute;
+	border-bottom: 180px solid #ff6666;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    width: 500px;
+    bottom: 280px;
+    left: 100px;
+}
+
+.ventana-1 {
+	position: absolute;
+	background-color: #e6e6ff;
+	width: 100px;
+	height: 100px;
+	bottom: 150px;
+	left: 180px;
+	border: 2px solid #ffffcc;
+}
+
+.ventana-2 {
+	position: absolute;
+	background-color: #e6e6ff;
+	width: 100px;
+	height: 100px;
+	bottom: 150px;
+	right: 180px;
+	border: 2px solid #ffffcc;
+}
+
+.puerta {
+	position: absolute;
+	background-color: #ff5500;
+	width:100px;
+	height: 130px;
+	opacity: 0.7;
+	bottom: 90px;
+	left: 350px;
+}
+
+/*Quería usar pseudo selectores y selectores de atributos pero sublime no lo tomaba :( */
+
+.borde-vertical-1, .borde-vertical-2 {
+	position: absolute;
+	height: 96px;
+	border: 2px solid #ffffcc;
+	bottom: 152px;
+}
+
+.borde-vertical-1 {
+	right: 228px;
+}
+
+.borde-vertical-2 {
+	left: 228px;
+}
+
+.borde-horizontal-1, .borde-horizontal-2 {
+	position: absolute;
+	width: 96px;
+	border: 2px solid #ffffcc;
+	bottom: 199px;
+}
+
+.borde-horizontal-1 {
+	right: 182px;
+}
+
+.borde-horizontal-2 {
+	left: 182px;
+}
+
+.chimenea {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: #ff6666;
+	top: 80px;
+	right: 180px;
+}
+
+.humo-1 {
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	background-color: grey;
+	border-radius: 50%;
+	top: 50px;
+	right: 180px;
+}
+
+.humo-2 {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	background-color: grey;
+	border-radius: 50%;
+	top: 35px;
+	right: 170px;
+}
+
+.humo-3 {
+	position: absolute;
+	width: 38px;
+	height: 38px;
+	background-color: grey;
+	border-radius: 50%;
+	top: 25px;
+	right: 158px;
+}
+
+.bush1 {
+	position: absolute;
+	width: 80px;
+	height: 30px;
+	background-color: #809966;
+	bottom: 90px;
+	left: 100px;
+}
+
+.lilbush1 {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #809966;
+	bottom: 80px;
+	left: 160px;
+}
+
+.lilbush2 {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #809966;
+	bottom: 80px;
+	left: 80px;
+}
+
+.lilbush3 {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #809966;
+	bottom: 100px;
+	left: 145px;
+}
+
+.lilbush4 {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #809966;
+	bottom: 100px;
+	left: 95px;
+}
+
+.lilbush5 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #809966;
+	bottom: 110px;
+	left: 115px;
+}
+
+.bigger-bush {
+	position: absolute;
+	width: 100px;
+	height: 80px;
+	background-color: #677a52;
+	left: 50px;
+	bottom: 90px;
+	
+}
+
+.biggerbush1 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #677a52;
+	border-radius: 50%;
+	bottom: 75px;
+	left: 20px;
+}
+
+.biggerbush2 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #677a52;
+	border-radius: 50%;
+	bottom: 110px;
+	left: 15px;
+}
+
+.biggerbush3 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #677a52;
+	border-radius: 50%;
+	bottom: 140px;
+	left: 40px;
+}
+
+.biggerbush4 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #677a52;
+	border-radius: 50%;
+	bottom: 150px;
+	left: 80px;
+}
+
+.biggerbush5 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #677a52;
+	border-radius: 50%;
+	bottom: 150px;
+	left: 110px;
+}
+
+.moon {
+	position: absolute;
+	background-color: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	left: 50px;
+	top: 30px;
+}
+
+.moon-shad {
+	position: absolute;
+	background-color: #003366;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	left: 70px;
+	top: 20px;	
+}
